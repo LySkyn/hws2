@@ -1,25 +1,52 @@
 .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background: #FFFFFF;
+    overflow-x: hidden;
+    padding-top: 60px;
 }
 
 .sidebar.open {
+    width: 317px;
+    padding: 8px 8px 8px 30px;
+    display: block;
+
 }
 
 .background {
+    background: black;
+    opacity: 0.3;
 }
 
 .nav {
+    display: flex;
+    flex-flow: column wrap;
+
 }
 
 .nav a {
+    padding: 20px;
+    font-size: 22px;
+    color: #000000;
 }
 
 .nav a:hover {
+    color: #58ACFF;
 }
 
 .nav a.active {
+
+    color: #0059B2;
 }
+
 .close {
+    float: right;
+    background: none;
+    border: none;
 }
 
 .close img {
+    width: 24px;
+    height: 24px;
 }
