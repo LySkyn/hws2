@@ -8,16 +8,20 @@
 }
 
 .buttonsContainer {
+    margin-bottom: 10px;
 }
 
 .container {
 }
 
 .thead {
+    text-decoration: underline;
 }
 
 .nameCol {
+    padding-left: 20px;
 }
 
 .ageCol {
+    padding-left: 100px;
 }
